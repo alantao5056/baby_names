@@ -1,0 +1,25 @@
+---
+title: "baby_names"
+format: html
+execute: 
+  echo: false
+---
+
+```{r}
+#| message: FALSE
+library(tidyverse)
+```
+
+
+```{r}
+baby_names_i = read_csv("data/i_names.csv", show_col_types = FALSE)
+baby_names_i = baby_names_i %>%
+  summarize(.by = year, n=sum(prop))
+baby_names_i
+```
+
+```{r}
+baby_names_i %>% 
+  ggplot(aes(x=year, y=n)) +
+  geom_line()
+```
