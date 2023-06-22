@@ -1,0 +1,11 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/1056744/1ce151a59e16409cbd98643c5a0528f8
+bundleId: https://api.rpubs.com/api/v1/document/1056744/1ce151a59e16409cbd98643c5a0528f8
+url: http://rpubs.com/alienjao/1056744
+when: 1687395720.58941
+lastSyncTime: 1687395720.58942
